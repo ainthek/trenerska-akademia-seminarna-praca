@@ -1,0 +1,1 @@
+# trenerska-akademia-seminarna-praca
