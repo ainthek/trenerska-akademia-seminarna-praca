@@ -108,7 +108,7 @@ Nevýhody:
 
 ## Spomalený video záznam
 
-Športové (akčné) kamery, ale už aj mnohé mobilné zariadenia podporujú nahrávanie videa v 
+Športové (akčné) kamery ale aj mnohé mobilné zariadenia podporujú nahrávanie videa v 
 vysokých rozlíšeniach a počtoch snímkov za sekundu. Toto umožňuje vytvárať kvalitné spomalené
 videozáznamy z spomalením až 6 krát bez straty kvality a dokonca aj 20 násobné spomalenia
 z dostatočnou kvalitou pre metodické účely. 
@@ -132,7 +132,7 @@ hneď po vykonaní trénovanej techniky ukázať správne a chybné časti (
 v tomto prípade chybný dopad). Zároveň tak jazdec má možnosť okamžitej 
 vizuálnej spätnej väzby a nápravy pri ďalšom pokuse už na tom istom tréningu.
 
-Počítanie kadencie, počtu záberov medzi prekážkami:
+## Počítanie kadencie, počtu záberov medzi prekážkami
 V BMX je dôležité, okrem iného, maximálne využite priestoru medzi prekážkami na zrýchlenie, 
 teda aktívna šliapanie do pedálov. Pomocou spomaleného videa je možné zverencovi ukázať že:
 začína šliapať príliš neskoro, spraví málo otáčok (kadencia), prípadne končí šliapanie príliš skoro pred prekážkou:
@@ -150,6 +150,77 @@ je našťastie medzi deťmi obľúbená,
 takže použitie videa na tento účel je skôr analytické ako motivačné, jazdec dokáže počítať otáčky aj sám. 
 Video môže maximálne pomôcť v identifikácii problému 
 (načasovanie, nízka kadencia, úplne nevhodné prevody, nedostatočná sila).
+
+## Analýza kadencie počas časovky 
+
+Náhodný experiment z využitím kamery umiestnenej na zadnej konštrukcii bicykla, videozáznam z časovky 6 ročného jazdca na domácej trati.
+
+Originál video <https://www.youtube.com/watch?v=TG5ntk4okdg>, natočené pôvodne bez metodického úmyslu.
+
+Video z označením časových intervalov (ukážka) <https://www.coachseye.com/v/ukNs>.
+
+Následne z daného videa postupným manuálnym počítaním otáčok a označovaním intervalov, je pri znalosti trate možné zostaviť manuálne nasledovnú tabuľku (asi hodina práce).
+
+
+
+Pri znalosti profilu trate a napárovaní  na profil trate je možné 
+získať podstatne komplexnejšie údaje ako pri záberoch iba medzi dvoma prekážkami.
+
+![náčrt profilu trate](./resources/slow-mo/rpm-track.jpg)
+
+![analýza RPM na BMX trati z video záznamu](./resources/slow-mo/rpm-results.png)
+
+Analýza výsledkov:
+
+Vybraný 6 ročný jazdec z 75 sekúnd na celej trati prešliape v pedáloch
+2/3 času, čo je asi 50 sekúnd. Maximálna rpm ktorú dosiahne je 127, priemer je 95 rpm.
+
+- pri štarte z rampy pomerne malé RPM (strach z prvej prekážky ?, problém statického štartu ?)
+- nulová aktivita z prvej prekážky (z iných porovnaní jazdci dosiahnu 5-6 rotácií)
+- maximálna frekvencia (prekvapivo 127 z prvej zátačky)
+- .....
+
+TODO: grafy
+
+Bohužiaľ neexistuje porovnávacie video z iným jazdcom, ale
+len na základe tohto videa už je možné identifikovať rozsah a aj priebeh typického zaťaženia, a možné tréningové zaťaženie na 
+rozvoj rýchlosti a vytrvalosti.
+
+Napr kondičný mimo trate:
+
+- rýchlostný tréning na 1 minútu a meranie dosiahnutých rotácií 
+- tréning 5 rotácií a 2 sekundy pauza a meranie výsledného času a vzdialenosti po 80 rotáciách.
+
+
+Technický priamo na trati:
+
+- zvýšenie počtu rotácií medzi prekážkami (pri zachovaní bezpečnej rýchlosti na zvládnutie ďalšej prekážky)
+- ...
+
+TODO: grafy
+
+Vylepšenie a automatizácia postupu:
+
+- farebné značky na trati
+- korelácia údajov z cyclo-computerom merajúcim rýchlosť a prípadne GPS polohu
+- použitie CV (Computer Vision) na analýzu videa z identifikáciou kadencie a značiek na trati (v prípade farebných markerov a nálepiek na podrážkach obuvi projekt na cca 10 dní)
+- ....
+
+Výhody:
+
+- ľahká montáž a minimálne náklady v prípade, že vlastníte nejakú 'action kameru'
+- Možnosť analýzy ex-post zo záznamu 
+- Mo 
+
+Nevýhody:
+
+- nutnosť montáže/demontáže (10 min) na bicykel meranej osoby
+- stiahnutie videa a prenos do SW z možnosťou merania času (10 min)
+- vyhodnotenie (20-60 min podľa praxe a SW)
+
+
+
+## Stopky
 
 Ďalším možným využitím spomaleného videa je meranie času, bez použitia špeciálnej techniky.
 Príkladom môže byť meranie od pádu rampy po prechod predným kolesom cez meranú líniu.
