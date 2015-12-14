@@ -245,7 +245,7 @@ TODO: Poopravovat texty.
 
 Typickým podkladom v BMX, pre analýzu techniky je napríklad štart.
 Nahrávanie štartov v spomalenej podobe, je vhodným príkladom vysvetlenia techniky (viď DVD...)
-a podkladom pre analýzu profesionálnym cauchom (dneska sa to už dá po interenet za peniaze.)
+a podkladom pre analýzu profesionálnym cauchom, napr. <http://bmxtraining.com/shop/gate-start-analysis-with-coach-greg-romero/>.
 
 
 
@@ -397,6 +397,7 @@ TODO:
 - <http://www.hudl.com/sports>
 - <http://www.powerchalk.com>
 
+- <http://bmxtraining.com>
 "
 
 
