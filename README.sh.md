@@ -1,4 +1,4 @@
- echo "
+echo "
 
 Využitie foto a video techniky v tréningu cyklistiky (BMX)
 ==========================================================
@@ -20,23 +20,25 @@ Ide najme o techniky:
 
 - foto sekvencie (Action Sequence Photo)
 - spomalený video záznam
+- porovnávací video záznam alebo porovnávacia foto sekvencia
 - anotovaný video záznam
-- porovnávací video záznam alebo foto sekvencie
+- analýza videa (manuálna, semi automatická, automatická)
 
+## Foto sekvencie (Action Sequence Photo, Akčná sekvencia, sekvencia akcie, AS)
 
-## Foto sekvencie (AS, Akčná sekvencia, sekvencia akcie, Action Sequence Photo)
+Známa najmä z reklamných fotografií, 
+ale taktiež tradičná a často využívaná technika v metodických materiáloch.
 
-Príklady:
-
-![Príklad foto sekvencie z literatúry](http://www.leelikesbikes.com/wp-content/pbs-flowsample-big.jpg)
-
-Často využívaná technika v metodických materiáloch,
-využíva sa tak kde video záznam nie je použiteľný (tlač),
+Využíva sa tam kde video záznam nie je použiteľný (tlač),
 alebo menej výpovedný ako fotografický záznam.
 
 Umožňuje dodatočné anotovanie obrázkov a vyznačenie kľúčových aspektov techniky ako
 trajektória pohybu, poloha tela a bicykla alebo aj časové aspekty (timing) ako miesto 
 želaného odrazu, dopadu vzhľadom na prekážku.
+
+Príklady:
+
+![Príklad foto sekvencie z literatúry](./resources/action-sequence/pbs-flowsample-big.jpg)
 
 Využitie:
 
@@ -377,12 +379,28 @@ realizáciu a demonštrácie na rôzne účely:
 
 TODO:
 
-## Použitá technika
 
-- Canon EOS 500D + bežný objektív
-- iSaw 3 Extreme - kamera
-- iPhone 6
-- iPad 3
+## Použitá technika a využitie
+
+- Canon EOS 500D, bežný objektív 	- foto, video
+- iSaw 3 Extreme 					- video, foto		
+- iPhone 6							- video, foto, prezentácia, editácia
+- iPad 3							- prezentácia, editácia, foto, video
+
+- iMac								- editácia, prezentácia
+- appleTV							- prezentácia 
+
+Každé zo zariadení má výhody aj nevýhody v kontexte použitia, závislé najmä od
+veľkosti a možnosti montáže. Ako najuniverzálnejší pre bežné použitie (mimo bicykla) 
+sa javí iPhone 6 z dostatočne malou veľkosťou
+na filmovanie, a dostatočne veľkým displejom na okamžité zobrazenie počas tréningu.
+
+## Použitý softvér
+
+- GIMP				- editácia fotografií, sekvencie, vrstvy (Open Source)
+- Coach's Eye		- editácia videa (TODO: cena)
+- (TODO: alternativy k coachs eye)
+- VLC player		- prehrávanie videa (TODO: open source ?)
 - 
 
 ## Literatúra
