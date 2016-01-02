@@ -1,49 +1,55 @@
 
-
 Využitie foto a video techniky v tréningu cyklistiky (BMX)
 ==========================================================
 
- Cieľom práce je predstaviť niektoré postupy záznamu a analýzy športovej sekvencie
- a možné využitie týchto techník pri tréningu (najmä techniky) v BMX.
+Cieľom práce je predstaviť niektoré postupy záznamu a analýzy športovej sekvencie
+a možné využitie týchto techník pri tréningu (najmä techniky) v BMX.
 
- V práci sú uvedené základne techniky snímania, spracovania, 
- a naznačené možné analýzy a možného využitia jednotlivých techník.
+V práci sú uvedené základne techniky snímania, spracovania, 
+a naznačené možné analýzy a možného využitia jednotlivých techník.
 
- Niektoré techniky sú známe z iných odvetví (kolektívne športy),
- ale pomerne málo alebo len čiastočne využívané v bežnom cyklistickom tréningu.
+Niektoré techniky sú známe z iných odvetví (kolektívne športy),
+ale pomerne málo alebo len čiastočne využívané v bežnom cyklistickom tréningu.
 
- Z dostupnosťou moderných technológií v mobilných zariadeniach
- sa však mnohé z nich stávajú cenovo dostupné a realizovateľné 
- aj v bežných individuálnych a klubových tréningoch.
+Z dostupnosťou moderných technológií v mobilných zariadeniach
+sa však mnohé z nich stávajú cenovo dostupné a realizovateľné 
+aj v bežných individuálnych a klubových tréningoch, 
+bez nutnosti profesionálnych fotografických, kameramanských alebo strihačských znalostí.
 
-Ide najme o techniky:
+V tejto práci sa zaoberáme najmä technikami:
 
-- foto sekvencie (Action Sequence Photo)
+- foto sekvencia (Action Sequence Photo)
 - spomalený video záznam
 - porovnávací video záznam alebo porovnávacia foto sekvencia
 - anotovaný video záznam
 - analýza videa (manuálna, semi automatická, automatická)
 
+V jednotlivých kapitolách sú uvedené jednotlivé techniky, 
+ich možné využitia, spôsob realizácie, výhody a nevýhody danej techniky.
+
+
 ## Foto sekvencie (Action Sequence Photo, Akčná sekvencia, sekvencia akcie, AS)
 
-Známa najmä z reklamných fotografií, 
-ale taktiež tradičná a často využívaná technika v metodických materiáloch.
-
-Využíva sa tam kde video záznam nie je použiteľný (tlač),
-alebo menej výpovedný ako fotografický záznam.
-
-Umožňuje dodatočné anotovanie obrázkov a vyznačenie kľúčových aspektov techniky ako
-trajektória pohybu, poloha tela a bicykla alebo aj časové aspekty (timing) ako miesto 
-želaného odrazu, dopadu vzhľadom na prekážku.
+Tradičná a často využívaná technika v metodických materiáloch. 
+Využíva sa tam, 
+kde video záznam nie je použiteľný (knižná tlač, metodické články v časopisoch)
+alebo je menej výpovedný ako fotografický záznam.
 
 Príklady:
 
 ![Príklad foto sekvencie z literatúry](./resources/action-sequence/pbs-flowsample-big.jpg)
 
-Využitie:
+
+### Využitie
 
 V bežnej praxi sa stretneme skôr z využitím existujúcich sekvencií z 
 externých zdrojov a ich následného využitia v tréningu na vysvetľovanie správnej techniky.
+
+Akčná sekvencia, umožňuje okrem zobrazenia rozfázovaného pohybu aj 
+dodatočné anotovanie obrázkov a vyznačenie kľúčových aspektov techniky ako
+trajektória, poloha tela a bicykla alebo aj časové aspekty (timing) ako miesto 
+ideálneho odrazu/dopadu vzhľadom na prekážku.
+
 Anotovanie priamo pri vysvetľovaní témy môže byť veľmi efektívnym nástrojom, 
 dopredu staticky anotované obrázky majú spravidla nižší efekt. Tu môže tréner 
 využiť napríklad dostupný SW (MS Power Point, animácie) a postupne na obrázku zobrazovať
@@ -54,20 +60,9 @@ farebné značky.
 Okrem tohoto metodického použitia sa veľmi často používa akčná sekvencia 
 ako reklamný propagačný nástroj.
 
+### Využitie: Porovnávacie video sekvencie
 
-Realizácia:
-
-Z foto alebo video záznamu.
-V prípade foto záznamu, sa nemusí podariť (pri bežných fotoaparátoch) zachytiť vhodné polohy,
-ale kvalita fotografií (ostrosť) je spravidla lepšia, v prípade vide záznamu je nutné z neho najskôr extrahovať fotografie, 
-čo zase vyžaduje SW a skúsenosti. Oba procesy potom pokračujú výberom vhodných fotografií 
-dobre reprezentujúcich danú techniku a ich spojení do jedného obrázka.
-Tu ide spravidla o manuálny proces vyžadujúci znalosť práce z daným grafickým SW a značnú prax.
-Úplná a použiteľná automatizácia takéhoto procesu nie je podľa mne dostupných informácií 
-v súčasnosti dostupná v bežných SW nástrojoch.
-
-
-Nasledujúce fotografie boli vytvorené z vide záznamu, každá samostatne
+Nasledujúce fotografie boli vytvorené z video záznamu:
 
 ![príklad sekvencie z videa](./resources/action-sequence/01.as.jpg)
 
@@ -86,58 +81,88 @@ sa šanca nasnímať identické okamihy ešte zhoršuje:
 ![príklad sekvencie z fotografií](./resources/action-sequence/jump02.as.jpg)
 
 Sekvenčná fotografia dvoch jazdcov (súčasne jazdiacich), predstavuje najzložitejšiu
-realizáciu a jej efekt pre porovnanie je tiež diskutabilný. Ide síce o efektný obrázok,
+realizáciu a jej efekt pre porovnanie je diskutabilný. Ide síce o efektný obrázok,
 ale z pomerne sporným metodickým významom:
 
 ![sekvencia dvoch jazdcov v paralelnej jazde](./resources/action-sequence/parallel.as.png)
 
-Trajektórie:
+
+
+## Využitie: Zobrazenie trajektórie pohybu 
+
 Pomerne použiteľné je zobrazenie trajektórie jazdca v zatáčke, 
 ale aj tu videozáznam viacerých jazdcov je výstižnejší (kapitola Porovnávací video záznam).
 
 ![sekvencia príklad neoptimálneho prejazdu zatáčkou ](./resources/action-sequence/curve.as.jpg)
 
-Výhody:
+### Realizácia
+
+Z foto alebo video záznamu.
+V prípade foto záznamu, sa nemusí podariť (pri bežných fotoaparátoch) zachytiť vhodné polohy,
+ale kvalita fotografií (ostrosť) je spravidla lepšia, v prípade vide záznamu je nutné z neho najskôr extrahovať fotografie, 
+čo zase vyžaduje SW a skúsenosti. Oba procesy potom pokračujú výberom vhodných fotografií 
+dobre reprezentujúcich danú techniku a ich spojení do jedného obrázka.
+Tu ide spravidla o manuálny proces vyžadujúci znalosť práce z daným grafickým SW a značnú prax.
+Úplná a použiteľná automatizácia takéhoto procesu nie je podľa mne dostupných informácií 
+v súčasnosti dostupná v bežných SW nástrojoch.
+
+### Výhody:
 
 - použiteľný v tlači
 - minimálne nároky na prezentáciu (vytlačené na papieri)
-- nenáročný spôsob dodatočnej anotácie (dokonca aj online na mobilnom zariadení)
+- nenáročný spôsob dodatočnej anotácie na papier, počítač, online na mobilnom zariadení, 
+premietnutý obraz na tabuli
+- možnosti porovnávania dvoch jazdcov ich techniky
 
-Nevýhody:
 
-- náročná realizácia (nie úplne automatický proces, treba grafický SW a skúsenosti)
+### Nevýhody:
+
+- náročná realizácia (nie úplne automatický proces, treba grafický SW a trocha praxe)
 - statický pohľad, chýbajúca dynamika pohybu
+
+V prípade silnejšej automatizácie procesu a použitia vysokorýchlostného videa 
+s vysokým rozlíšením ide o takmer ideálny nástroj na tvorbu metodických tlačených materiálov.
 
 ## Spomalený video záznam
 
 Športové (akčné) kamery ale aj mnohé mobilné zariadenia podporujú nahrávanie videa v 
 vysokých rozlíšeniach a počtoch snímkov za sekundu. Toto umožňuje vytvárať kvalitné spomalené
-videozáznamy z spomalením až 6 krát bez straty kvality a dokonca aj 20 násobné spomalenia
+videozáznamy so spomalením až 6 krát bez straty kvality a dokonca aj 20 násobné spomalenia
 z dostatočnou kvalitou pre metodické účely. 
 
-Hlavnou výhodou mobilných zariadení je možnosť takto 
-nasnímané video okamžite prehrať a zvoliť si spomalený úsek z nasnímaného videa 
-prípadne spomalený výsek aj meniť.
+### Využitie:
+
+Prehranie spomaleného a slovné vysvetlenie správnej prípadne, nesprávnej techniky. 
+V prípade prehrávania z možnosťami spomalenie záznamu, zastavenie, zrýchlenie a 
+v prípade možnosti ovládania cez diaľkový ovládač, ide o ideálny výukový materiál.
+
+### Realizácia
+
+Hlavnou výhodou moderných mobilných zariadení (využívali sme iPhone) je možnosť takto 
+nasnímané video okamžite prehrať a zvoliť si spomalený výsek. 
 
 Príklad použitia iPhone 6 a štandardného SW pre snímanie spomaleného videa (Slo-mo video, 120/240 fps)
-a následného prehrania okamžite na telefóne zverencovi.
-Príklad spomaleného vykonania odrazovej fázy:
+a následného prehrania okamžite na telefóne jazdcovi.
 
-![odraz, výber časti videa pre spomalenie](./resources/slow-mo/up.png)
+Príklad spomalenia  odrazovej fázy a dopadovej fázy na štandadnom iPhone videu:
 
-a príklad spomaleného dopadu:
+<img src="./resources/slow-mo/up.png" width="300px">
+<img src="./resources/slow-mo/down.png" width="300px">
 
-![dopad, výber časti videa pre spomalenie](./resources/slow-mo/down.png)
-
-Takto jednoducho dokáže tréner zverencovi na ukážke videa okamžite 
-hneď po vykonaní trénovanej techniky ukázať správne a chybné časti (
-v tomto prípade chybný dopad). Zároveň tak jazdec má možnosť okamžitej 
+Takto jednoducho dokáže tréner jazdcovi na ukážke videa okamžite, 
+hneď po vykonaní trénovanej techniky ukázať správne a chybné časti 
+(v tomto prípade chybný dopad). Zároveň tak má jazdec má možnosť okamžitej 
 vizuálnej spätnej väzby a nápravy pri ďalšom pokuse už na tom istom tréningu.
 
-## Počítanie kadencie, počtu záberov medzi prekážkami
+
+### Využitie: Počítanie kadencie, počtu záberov medzi prekážkami
+
 V BMX je dôležité, okrem iného, maximálne využite priestoru medzi prekážkami na zrýchlenie, 
-teda aktívna šliapanie do pedálov. Pomocou spomaleného videa je možné zverencovi ukázať že:
-začína šliapať príliš neskoro, spraví málo otáčok (kadencia), prípadne končí šliapanie príliš skoro pred prekážkou:
+teda aktívne šliapanie do pedálov. Pomocou spomaleného videa je možné jazdcovi ukázať že:
+
+začína šliapať príliš neskoro, 
+spraví málo otáčok (kadencia), 
+prípadne končí šliapanie príliš skoro pred prekážkou:
 
 V praxi mu to ukazujeme na spomalenom zábere, tu ako ukážka fotografií:
 
@@ -153,7 +178,37 @@ takže použitie videa na tento účel je skôr analytické ako motivačné, jaz
 Video môže maximálne pomôcť v identifikácii problému 
 (načasovanie, nízka kadencia, úplne nevhodné prevody, nedostatočná sila).
 
-## Analýza kadencie počas časovky 
+
+
+### Využitie: Stopky
+
+Ďalším možným využitím spomaleného videa je meranie času, bez použitia špeciálnej techniky.
+Príkladom môže byť meranie od pádu rampy po prechod predným kolesom cez meranú líniu.
+
+![využitie videa, stopky](./resources/slow-mo/stopwatch.jpg)
+
+Zaujímavé na tejto technike je, že ak meriame tú istú sekvenciu viacnásobne počas tréningu
+dokážeme vyhodnotiť vplyv techniky a reakcie na signál na výsledný čas v prvom úseku. 
+Teda meriame čas ale máme k nemu aj vysvetľujúce video. 
+Všetko už počas tréningu bez potreby dodatočného spracovania videa na počítači a techniky pre meranie času.
+
+Len pre zaujímavosť a porovnanie 0.43 sekúnd na štarte v podaní detí:
+
+![využitie videa, stopky, deti](./resources/slow-mo/stopwatch-kids.jpg)
+
+
+Presnosť metódy samozrejme nenahrádza profesionálne meranie času, ale jej spojenie z video
+analýzov za minimalne náklady a zložitosť je určite zaujímavé.
+
+### Využitie: Analýza štartu
+
+TODO: Poopravovat texty.
+
+Typickým podkladom v BMX, pre analýzu techniky je napríklad štart.
+Nahrávanie štartov v spomalenej podobe, je vhodným príkladom vysvetlenia techniky (viď DVD...)
+a podkladom pre analýzu profesionálnym cauchom, napr. <http://bmxtraining.com/shop/gate-start-analysis-with-coach-greg-romero/>.
+
+### Využitie: Analýza kadencie počas časovky 
 
 Náhodný experiment z využitím kamery umiestnenej na zadnej konštrukcii bicykla, videozáznam z časovky 6 ročného jazdca na domácej trati.
 
@@ -186,70 +241,35 @@ TODO: grafy
 
 Bohužiaľ neexistuje porovnávacie video z iným jazdcom, ale
 len na základe tohto videa už je možné identifikovať rozsah a aj priebeh typického zaťaženia, a možné tréningové zaťaženie na 
-rozvoj rýchlosti a vytrvalosti.
+rozvoj rýchlosti napr. : 
 
-Napr kondičný mimo trate:
+Mimo trate:
 
 - rýchlostný tréning na 1 minútu a meranie dosiahnutých rotácií 
 - tréning 5 rotácií a 2 sekundy pauza a meranie výsledného času a vzdialenosti po 80 rotáciách.
 
-
-Technický priamo na trati:
+Priamo na trati:
 
 - zvýšenie počtu rotácií medzi prekážkami (pri zachovaní bezpečnej rýchlosti na zvládnutie ďalšej prekážky)
 - ...
 
-TODO: grafy
+### Výhody
 
-Vylepšenie a automatizácia postupu:
+- ľahká montáž a minimálne náklady v prípade, že vlastníte 'action kameru' (GoPro Hero, iSaw, iné)
+- Možnosť analýzy po tréningu, závodoch (ex-post) zo záznamu 
 
-- farebné značky na trati
-- korelácia údajov z cyclo-computerom merajúcim rýchlosť a prípadne GPS polohu
-- použitie CV (Computer Vision) na analýzu videa z identifikáciou kadencie a značiek na trati (v prípade farebných markerov a nálepiek na podrážkach obuvi projekt na cca 10 dní)
-- ....
-
-Výhody:
-
-- ľahká montáž a minimálne náklady v prípade, že vlastníte nejakú 'action kameru'
-- Možnosť analýzy ex-post zo záznamu 
-- Mo 
-
-Nevýhody:
+### Nevýhody
 
 - nutnosť montáže/demontáže (10 min) na bicykel meranej osoby
 - stiahnutie videa a prenos do SW z možnosťou merania času (10 min)
 - vyhodnotenie (20-60 min podľa praxe a SW)
 
+### Vylepšenie a možná automatizácia postupu
 
-
-## Stopky
-
-Ďalším možným využitím spomaleného videa je meranie času, bez použitia špeciálnej techniky.
-Príkladom môže byť meranie od pádu rampy po prechod predným kolesom cez meranú líniu.
-
-![využitie videa, stopky](./resources/slow-mo/stopwatch.jpg)
-
-Zaujímavé na tejto technike je, že ak meriame tú istú sekvenciu viacnásobne počas tréningu
-dokážeme vyhodnotiť vplyv techniky a reakcie na signál na výsledný čas v prvom úseku. 
-Teda meriame čas ale máme k nemu aj vysvetľujúce video. 
-Všetko už počas tréningu bez potreby dodatočného spracovania videa na počítači a techniky pre meranie času.
-
-Len pre zaujímavosť a porovnanie 0.43 sekúnd na štarte v podaní detí:
-
-![využitie videa, stopky, deti](./resources/slow-mo/stopwatch-kids.jpg)
-
-
-Presnosť metódy samozrejme nenahrádza profesionálne meranie času, ale jej spojenie z video
-analýzov za minimalne náklady a zložitosť je určite zaujímavé.
-
-Analýza štartu
-TODO: Poopravovat texty.
-
-Typickým podkladom v BMX, pre analýzu techniky je napríklad štart.
-Nahrávanie štartov v spomalenej podobe, je vhodným príkladom vysvetlenia techniky (viď DVD...)
-a podkladom pre analýzu profesionálnym cauchom, napr. <http://bmxtraining.com/shop/gate-start-analysis-with-coach-greg-romero/>.
-
-
+- farebné značky na trati
+- korelácia údajov z cyclo-computerom merajúcim rýchlosť a prípadne GPS polohu
+- použitie CV (Computer Vision) na analýzu videa z identifikáciou kadencie a značiek na trati (v prípade farebných markerov a nálepiek na podrážkach obuvi projekt na cca 10 dní)
+- ....
 
 ## Anotovaný (komentovaný video záznam)
 
@@ -261,6 +281,8 @@ Zariadenie umožňujúce takéto zobrazenie sa nazýva Telestrátor.
 Telestrator je zariadenie ktoré umožňuje operátorovi kresliť voľnou rukou ponad video alebo statické obrázky. 
 <https://en.wikipedia.org/wiki/Telestrator>.
 
+### Využitie
+
 Bežne sa používa pre:
 
 - kolektívne hry (hokej, futbal, americký futbal)
@@ -268,6 +290,8 @@ Bežne sa používa pre:
 - atletiku, gymnastiku
 
 V cyklistike a v BMX je jeho použitie menej známe.
+
+### Realizácia 
 
 V tradičnom ponímaní ide o zariadenie pomerne veľkého rozmeru a vysokej ceny, založené na klasickom PC a 
 monitore (aj keď v prenosnom balení).
@@ -284,10 +308,12 @@ Prehľad funkcionality:
 
 ![príklad aplikácie na nahrávanie a analýzu videa v mobilnom telefóne](./resources/telestrators/ui-overview.png)
 
-Umožňuje z pôvodného videa vytvoriť nové video z rôznou rýchlosťou, zastavovaním, prevíjaním dopredu dozadu,
-zaznamenať k nemu  hlasové komentáre a grafické, značky vo video zázname.
+Umožňuje z pôvodného videa vytvoriť nové video z rôznou rýchlosťou, zastavovaním, 
+prevíjaním dopredu/dozadu,
+zaznamenať k nemu hlasové komentáre 
+a grafické, značky potom zobrazené v prehrávanom video zázname.
 
-Použitie, napríklad na analýzu doskoku a vyznačenie nedokonalej techniky:
+### Využitie: Analýza doskoku a vyznačenie nedokonalej techniky
 
 ![doskok, analýza v alikácii Coach's Eye](./resources/telestrators/landing.jpg)
 
@@ -295,13 +321,19 @@ Obrázok 1: vyznačenie miesta dopadu predného kolesa a problémová výška za
 Obrázok 2: Modrou označená dĺžka jazdy čisto po prednom kolese a farebne označený dopad predného a zadného kolesa.
 Obrázok 3: To isté, ale s koncovou pozíciou jazdca
 
-Samozrejme hlavnou prednosťou je že anotovaním zase vznikne video,
+Samozrejme hlavnou prednosťou je, že anotovaním zase vznikne video,
 kde jednotlivé značky pribúdajú odbúdajú tak ako to tréner vyznačil počas nahrávania,
-prezentácia videa je však v tomto texte problémová, takže je uvedený len obrázok.
+prezentácia videa je však v texte tejto práce problémová, takže je uvedený len obrázok.
 
 ## Porovnávací video záznam
 
-Porovnávanie jedného jazdca a jednej techniky tej istej prekážke:
+ Možnosť snímania video záznamov a ich porovnávanie je základom 
+ diagnostiky techniky (napr. v atletických športoch), 
+ alebo vhodnosti/nevhodnosti hernej stratégie (v kolektívnych hrách). 
+
+ Samozrejme je možné ho použiť aj v cyklistickom (BMX) tréningu.
+
+### Využitie: Porovnávanie jedného jazdca a jednej techniky tej istej prekážke
 
 ![nekonzistentné prevedenie náklon](./resources/telestrators/inconsistent01.png)
 
@@ -322,10 +354,11 @@ Zároveň možno vysvetliť na jednotlivých úspešných záznamoch porovnaním
 kde bola chyba v polohe tela, načasovaní, vystretí nôh a rúk a podobne.
 
 Takáto vizuálna spätná väzba môže urýchliť učenie, prípadne napomôcť motivácii.
+
 Uchovanie záznamov zo správnym aj nesprávnym prevedením môže potom poslúžiť
 ako dodatočný metodický materiál pre ďalšie tréningy, 
-ale aj zaujímavý motivačný materiál: "pozri ráno si to jazdil ešte takto, 
-teraz je to oveľa lepšie, vidíš že sa to dokážeš naučiť za jeden deň, super ".
+ale aj zaujímavý motivačný materiál: \"pozri ráno si to jazdil ešte takto, 
+teraz je to oveľa lepšie, vidíš že sa to dokážeš naučiť za jeden deň, super \".
 
 Príklady videí z konkrétneho tréningu:
 
@@ -339,10 +372,11 @@ pokusy na prekážke boli striedané z prípravnými cvičeniami a pokusmi mimo 
 Na konci hodinového tréningu už mali prevahu úspešných pokusov. 
 
 
-Porovnávanie rôznych jazdcov a jednej techniky tej istej prekážke:
+### Využitie: Porovnávanie rôznych jazdcov a jednej techniky tej istej prekážke
 
 Rovnako môžeme použiť porovnávanie dvoch jazdcov, poukázať na rozdiely v technike
 a poskytnúť vizuálny návod na ich odstránenie. 
+Teda častá otázka typu: "Prečo to jemu ide a mne nie ?"
 
 <https://www.youtube.com/watch?v=DmGIgXQe_AE>
 
@@ -354,33 +388,74 @@ zastavovať, spomaľovať video a podobne.
 prekážke na trati ale bez špeciálnych úprav, napríklad prejazd zatáčkou je na takéto porovnanie
 vhodný. Jazdci si môžu porovnať štýl jazdy, trajektórie, náklony, pedálovanie a rýchlosti prejazdu.
 Toto je najjednoduchší spôsob nevyžadujúci nijaké špeciálne SW and HW vybavenie, postačuje kamera 
-a a prípadne prehrávač z možnosťou stop alebo spomaleného záznamu.
+a prípadne prehrávač z možnosťou stop alebo spomaleného záznamu.
+
+TODO: static picture
 
 <https://www.youtube.com/watch?v=GLV-hCA7u64>
 
+### Realizácia
+
+Podobne ako anotované video, je možné použiť SW v mobilných zariadeniach, prípadne
+niektorý z video editačných nástrojov. 
+Hlavnou výhodou špecializovaného mobilného SW, je možnosť zapnutia, vypnutia 
+synchronizácie dvoch videí a samozrejme možnosť realizácie hneď počas tréningu.
+
+### Výhody
+
+- možnosť prezentácie v ľubovoľnom okamihu videa (čo sa v prípade akčnej fotografie nedá)
+- možnosť synchronizácie v čase (čo v čase A robil jazdec 1 a 2)
+napr. "neskoro priťahuješ riadidlá, pozri on už teraz krčil ruky"
+- možnosť synchronizácie v priestore (v akej polohe bol jazdec 1 vs. jazdec 2 v bode A) - 
+napr. "pozri, on ešte stále šliapal, a ešte aj tu šliapal a ty sa vezieš už dva metre"
 
 ## Kombinované a improvizované techniky
 
-- Premietanie spomaleného videa na tabuľu a kreslenie trajektórie fixkou....
-TODO: technika, význam
+### Premietanie spomaleného videa na tabuľu a kreslenie anotácií fixkou
+Takmer najvhodnejšia technika pre online analýzu konkrétneho výkonu, ale aj 
+predvedenie správnej a nesprávnej techniky.
 
-- Screenshot z videa priamo na telefóne..... editácia v programe a send my email...
+Video sa premieta na bielu  tabuľu a fixkou tréner vyznačuje dobré zlé techniky.
+Postačuje projektor, počítač z prehrávačom videa a tabuľa (diaľkové ovládanie video prehrávača 
+v počítači je výhodou).
 
-## Význam jednotlivých techník
+### Fotografia z videa na telefóne a zaslanie jazdcovi, rodičovi
 
-- ukázať prvotne dobrú techniku
-- ukázať prvotne zlú techniku
+Menej ako minútová záležitosť. Najmä na demonštrovanie zlých techník.
+Príklad, 7 ročný jazdec a mail rodičom: 
+"Prosím pripomínajte mu správnu polohu na pedáloch aj pri bežnom jazdení po ulici,
+pozrite ako má nesprávne nohy, stojí polovicou topánky mimo pedála".
+
+Toto zároveň pomáha zvýšenému zapojeniu rodičov, ktorý sa takto dokážu zapojiť a pochopiť 
+(na triviálnom vizuálnom príklade) danú techniku.
+
+
+## Záver
+
+Cieľom práce bolo poukázať na dostupnosť niektorých video a foto postupov 
+ich použiteľnosť v tréningu z cieľom:
+
+- ukázať správnu techniku pred jej samotným nácvikom 
+- ukázať zlú techniku a najčastejšie známe chyby
 - porovnať prevedenie z dobrou technikou a vyznačiť rozdiely
-- ukázať vplyv techniky na rýchlosť (jump, pump, vs. manual) toho istého úseku trate
+- ukázať vplyv rozdielnej zvolenej techniky na rýchlosť (jump, pump, vs. manual) toho istého úseku trate
 
-## Sumarizácia
-Nasledovná tabuľka porovnáva vhodnosť jednotlivých techník a ich náročnosť na
-realizáciu a demonštrácie na rôzne účely:
+Prácu treba vnímať ako záznam doterajších skúseností na základe krátkej praxe autora,
+a prípadne inšpiráciu pre ostatných trénerov ktorý z danou oblasťou neprišli do styku.
+Výpočet techník a ich možností nie je ani do šírky ani do hĺbky určite kompletný.
 
-TODO:
+Predpokladáme však, že niektoré z prezentovaných video a foto techník zaujmú aj iných 
+trénerov, rodičov a jazdcov a dokážu ich využiť napríklad na: 
+
+- aktívnejšie zapojenie rodičov počas tréningu ("máš telefón, ty filmuješ prvú zatáčku, a ty filmuješ skok na prekážke 7"),
+- prípravu metodických materiálov, či už papierovej alebo video podoby, pre ďalšie generácie, 
+- na filmovanie a fotografovanie motivačných a propagačných materiálov 
+- a ďalšie iné v tejto práci nespomínané využitia
 
 
-## Použitá technika a využitie
+# Prílohy
+
+## Použitý hardvér
 
 - Canon EOS 500D, bežný objektív 	- foto, video
 - iSaw 3 Extreme 					- video, foto		
@@ -397,16 +472,17 @@ na filmovanie, a dostatočne veľkým displejom na okamžité zobrazenie počas 
 
 ## Použitý softvér
 
-- GIMP				- editácia fotografií, sekvencie, vrstvy (Open Source)
-- Coach's Eye		- editácia videa (TODO: cena)
-- (TODO: alternativy k coachs eye)
-- VLC player		- prehrávanie videa (TODO: open source ?)
-- 
+- GIMP					- editácia fotografií, sekvencie, vrstvy (Open Source)
+- Coach's Eye			- editácia videa (TODO: cena)
+- 						- (TODO: alternativy k coachs eye)
+- VLC player			- prehrávanie videa (TODO: open source ?)
+- video-tools 			- manuálna extrakcia obrázkov z videa z možnosťou výberu vhodných záznamov (experimentálny miniprojekt autora práce)
+- FFMpeg 				- automatická extrakcia obrázkov z videa, možnosť určenia začiatku, konca a frekvencie 
+- ComputerVision(CV)	- TODO: explain	
 
 ## Literatúra
 
 - <http://www.leelikesbikes.com/book-pro-bmx-skills>
-- <https://github.com/ainthek/video-tools>
 - TODO: linka na ASequence bakalarky čo som našiel
 
 
@@ -416,4 +492,5 @@ na filmovanie, a dostatočne veľkým displejom na okamžité zobrazenie počas 
 - <http://www.powerchalk.com>
 
 - <http://bmxtraining.com>
+
 
