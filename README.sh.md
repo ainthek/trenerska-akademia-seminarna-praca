@@ -31,7 +31,7 @@ ich možné využitia, spôsob realizácie, výhody a nevýhody danej techniky.
 
 ## Foto sekvencie (Action Sequence Photo, Akčná sekvencia, sekvencia akcie, AS)
 
-Tradičná a často využívaná technika v metodických materiáloch. 
+Tradičná a často využívaná technika v metodických materiáloch [1], 
 Využíva sa tam, 
 kde video záznam nie je použiteľný (knižná tlač, metodické články v časopisoch)
 alebo je menej výpovedný ako fotografický záznam.
@@ -44,7 +44,7 @@ Príklady:
 ### Využitie
 
 V bežnej praxi sa stretneme skôr z využitím existujúcich sekvencií z 
-externých zdrojov a ich následného využitia v tréningu na vysvetľovanie správnej techniky.
+externých zdrojov [1] a ich následného využitia v tréningu na vysvetľovanie správnej techniky.
 
 Akčná sekvencia, umožňuje okrem zobrazenia rozfázovaného pohybu aj 
 dodatočné anotovanie obrázkov a vyznačenie kľúčových aspektov techniky ako
@@ -52,8 +52,10 @@ trajektória, poloha tela a bicykla alebo aj časové aspekty (timing) ako miest
 ideálneho odrazu/dopadu vzhľadom na prekážku.
 
 Anotovanie priamo pri vysvetľovaní témy môže byť veľmi efektívnym nástrojom, 
-dopredu staticky anotované obrázky majú spravidla nižší efekt. Tu môže tréner 
-využiť napríklad dostupný SW (MS Power Point, animácie) a postupne na obrázku zobrazovať
+dopredu staticky anotované obrázky majú spravidla nižší efekt. 
+
+Tu môže tréner využiť napríklad dostupný SW (MS Power Point a efekty animácie) 
+a postupne na obrázku zobrazovať
 jednotlivé anotácie počas vysvetľovania, 
 alebo úplne jednoducho priamo na papieri dokresľovať do obrázka
 farebné značky.
@@ -454,40 +456,59 @@ trénerov, rodičov a jazdcov a dokážu ich využiť napríklad na:
 - a ďalšie iné v tejto práci nespomínané využitia
 
 
-# Prílohy
-
 ## Použitý hardvér
 
 - Canon EOS 500D, bežný objektív 	- foto, video
 - iSaw 3 Extreme 					- video, foto		
 - iPhone 6							- video, foto, prezentácia, editácia
 - iPad 3							- prezentácia, editácia, foto, video
-
 - iMac								- editácia, prezentácia
-- appleTV							- prezentácia 
 
 Každé zo zariadení má výhody aj nevýhody v kontexte použitia, závislé najmä od
 veľkosti a možnosti montáže. Ako najuniverzálnejší pre bežné použitie (mimo bicykla) 
 sa javí iPhone 6 z dostatočne malou veľkosťou
 na filmovanie, a dostatočne veľkým displejom na okamžité zobrazenie počas tréningu.
 
-## Použitý softvér
+## Softvér
 
-- GIMP					- editácia fotografií, sekvencie, vrstvy (Open Source)
-- Coach's Eye			- editácia videa (TODO: cena)
-- 						- (TODO: alternativy k coachs eye)
-- VLC player			- prehrávanie videa (TODO: open source ?)
-- video-tools 			- manuálna extrakcia obrázkov z videa z možnosťou výberu vhodných záznamov (experimentálny miniprojekt autora práce)
-- FFMpeg 				- automatická extrakcia obrázkov z videa, možnosť určenia začiatku, konca a frekvencie 
-- ComputerVision(CV)	- TODO: explain	
-
-## Literatúra
-
-- <http://www.leelikesbikes.com/book-pro-bmx-skills>
-- TODO: linka na ASequence bakalarky čo som našiel
+- GIMP					- editácia fotografií, sekvencie, vrstvy, Open Source, <http://www.gimp.org/downloads/>
+- Coach's Eye			- analýza a anotovanie videa, porovnávacie videá, prezentácia, platený SW (5$ + 10$ za pro balík), <https://www.coachseye.com>, <https://itunes.apple.com/us/app/coachs-eye-instant-video-analysis/id472006138?mt=8>
+- SlowMo Coach 			- analýza a anotovanie videa, porovnávacie videá, prezentácia, platený SW (0$ + 3$ za pro balík), <https://itunes.apple.com/fi/app/id843274461?mt=8> 
+- VLC player			- prehrávanie videa, Open Source, <http://www.videolan.org/vlc/index.html>
+- video-tools 			- manuálna extrakcia obrázkov z videa z možnosťou výberu vhodných záznamov, <https://github.com/ainthek/video-tools>
+- FFMpeg 				- automatická extrakcia obrázkov z videa, možnosť určenia začiatku, konca a frekvencie, <https://www.ffmpeg.org>
+- OpenCV				- softvérové knižnice pre 'Computer Vision', rozpoznávanie tvarov, farieb atď, <http://opencv.org> 
 
 
-# Web Sites/Companies of Video Analyses and Coaching
+## Literatúra a zdroje
+
+
+- [1] Lee McCormack, PRO BMX SKILLS - Equipment, techniques,tactics and training, <http://www.leelikesbikes.com/book-pro-bmx-skills>
+
+- Sean Chen, Ben Stabler, and Andrew Stanley, 
+EE 368: Digital Image Processing, Stanford University, 
+Automatic Generation of Action Sequence Images from Burst Shots, 
+<https://stacks.stanford.edu/file/druid:bk674bd5187/Chen_Stabler_Stanley_Action_Sequence_Generation.pdf>
+
+- GoPro Hero3 Burst Tutorial: How To Make A Sequence In Photoshop, 
+<https://www.youtube.com/watch?v=IiZFDXBH86g>
+
+- Use Photoshop for a Seamless Action Sequence, 
+<http://www.tipsquirrel.com/use-photoshop-for-a-seamless-action-sequence/>
+
+- How to Create a Radical Photo Sequence, 
+<http://abduzeedo.com/how-create-radical-photo-sequence>
+
+- Reader Tutorial: How to create an awesome action picture in GIMP,
+<http://abduzeedo.com/reader-tutorial-how-create-awesome-action-picture-gimp>
+
+- FFMpeg Documentation, 
+Create a thumbnail image every X seconds of the video,
+<https://trac.ffmpeg.org/wiki/Create%20a%20thumbnail%20image%20every%20X%20seconds%20of%20the%20video>
+
+
+<!-- Web Sites/Companies of Video Analyses and Coaching -->
+
 - <http://www.telestrator.com>
 - <http://www.hudl.com/sports>
 - <http://www.powerchalk.com>
