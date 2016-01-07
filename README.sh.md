@@ -89,8 +89,6 @@ ale z pomerne sporným metodickým významom:
 
 ![sekvencia dvoch jazdcov v paralelnej jazde](./resources/action-sequence/parallel.as.png)
 
-
-
 ## Využitie: Zobrazenie trajektórie pohybu 
 
 Pomerne použiteľné je zobrazenie trajektórie jazdca v zatáčke, 
@@ -98,64 +96,124 @@ ale aj tu videozáznam viacerých jazdcov je výstižnejší (kapitola Porovnáv
 
 ![sekvencia príklad neoptimálneho prejazdu zatáčkou ](./resources/action-sequence/curve.as.jpg)
 
-### Realizácia
+### Realizácia, vytváranie vlastných foto sekvencií
 
-Z foto alebo video záznamu.
-V prípade foto záznamu, sa nemusí podariť (pri bežných fotoaparátoch) zachytiť vhodné polohy,
-ale kvalita fotografií (ostrosť) je spravidla lepšia, v prípade vide záznamu je nutné z neho najskôr extrahovať fotografie, 
-čo zase vyžaduje SW a skúsenosti. Oba procesy potom pokračujú výberom vhodných fotografií 
+Sekvenciu je možné vytvoriť v zásade z dvoch zdrojov: z fotografií alebo z videa.
+
+V prípade fotografií, sa nemusí podariť (pri bežných fotoaparátoch) zachytiť vhodné polohy,
+ale kvalita fotografií (ostrosť) je spravidla lepšia, 
+v prípade video záznamu je nutné z neho najskôr extrahovať fotografie, 
+čo zase vyžaduje SW a skúsenosti. 
+
+Postupov je niekoľko od automatických [7], 
+cez rôzne polo automatické, až po manuálne postupy. Každý z nich využíva SW a sú
+nutné nejaké základné znalosti z jeho ovládaním. Pomocou moderných prehliadačov, už
+je možné dnes realizovať tieto operácie aj priamo online na web-e [video-tools], bez nutnosti 
+inštalácie špecializovaného SW [FFMpeg, GIMP, SlowMo] na počítač alebo mobil.
+
+Kvalita statického obrázku z videa a rozlíšenie je spravidla nižšie ako pri fotografii, ale 
+pre metodické účely spravidla postačuje.
+
+Oba prístupy potom pokračujú výberom vhodných fotografií 
 dobre reprezentujúcich danú techniku a ich spojení do jedného obrázka.
-Tu ide spravidla o manuálny proces vyžadujúci znalosť práce z daným grafickým SW a značnú prax.
-Úplná a použiteľná automatizácia takéhoto procesu nie je podľa mne dostupných informácií 
-v súčasnosti dostupná v bežných SW nástrojoch.
+
+Tu ide spravidla o manuálny proces vyžadujúci znalosť práce z daným grafickým SW [GIMP, Photoshop] 
+a krokov ako v danom SW fotografie pospájať. Na internete existuje množstvo postupov ale aj
+programov a príklady sú uvedené v literatúre [3][4][5][6].
+
+Existujú práce z oblasti počítačovej grafiky [2]  zaoberajúce sa automatizáciou celého procesu,
+ale z ich uplatnením v praxi som sa nemal možnosť zoznámiť.
+
+Príklad extrakcie z videa a následnej kompozície do jedného obrázka:
+
+	ffmpeg -i resources/slow-mo/cadence.mp4 -vf fps=1/10 resources/action-sequence/cadence%03d.jpg
+	montage -tile 5x2 resources/action-sequence/cadence0*.jpg resources/action-sequence/cadence.jpg
+
+Tento postup bol použitý na vytvorenie obrázka v kapitole o analýze kadencie.	
 
 ### Výhody:
 
-- použiteľný v tlači
+- použiteľné v tlači
 - minimálne nároky na prezentáciu (vytlačené na papieri)
-- nenáročný spôsob dodatočnej anotácie na papier, počítač, online na mobilnom zariadení, 
+- nenáročný spôsob dodatočnej anotácie na papieri, počítači, online na mobilnom zariadení, 
 premietnutý obraz na tabuli
 - možnosti porovnávania dvoch jazdcov ich techniky
 
 
 ### Nevýhody:
 
-- náročná realizácia (nie úplne automatický proces, treba grafický SW a trocha praxe)
-- statický pohľad, chýbajúca dynamika pohybu
+- prácna a náročná realizácia 
+- iba statický pohľad, chýbajúca dynamika pohybu
 
-V prípade silnejšej automatizácie procesu a použitia vysokorýchlostného videa 
+V prípade silnejšej automatizácie procesu a použitia vysoko rýchlostného videa 
 s vysokým rozlíšením ide o takmer ideálny nástroj na tvorbu metodických tlačených materiálov.
+
+
 
 ## Spomalený video záznam
 
-Športové (akčné) kamery ale aj mnohé mobilné zariadenia podporujú nahrávanie videa v 
-vysokých rozlíšeniach a počtoch snímkov za sekundu. Toto umožňuje vytvárať kvalitné spomalené
-videozáznamy so spomalením až 6 krát bez straty kvality a dokonca aj 20 násobné spomalenia
-z dostatočnou kvalitou pre metodické účely. 
+Športové (akčné) kamery [iSaw 3 Extreme] ale aj mnohé mobilné zariadenia [iPhone6] podporujú nahrávanie videa v 
+vysokých rozlíšeniach a vysokých počtoch snímkov za sekundu (120/240 fps). 
+
+Toto umožňuje vytvárať kvalitné spomalené videozáznamy so spomalením až 6 krát bez straty kvality 
+a dokonca aj 20 násobné spomalenia z dostatočnou kvalitou pre metodické účely. 
 
 ### Využitie:
 
-Prehranie spomaleného a slovné vysvetlenie správnej prípadne, nesprávnej techniky. 
-V prípade prehrávania z možnosťami spomalenie záznamu, zastavenie, zrýchlenie a 
+Prehranie spomaleného videa a slovné vysvetlenie správnej prípadne, nesprávnej techniky. 
+V prípade prehrávania s možnosťami ako spomalenie záznamu, zastavenie, zrýchlenie a 
 v prípade možnosti ovládania cez diaľkový ovládač, ide o ideálny výukový materiál.
 
-### Realizácia
+### Realizácia: natáčanie pre spomalené video 
 
-Hlavnou výhodou moderných mobilných zariadení (využívali sme iPhone) je možnosť takto 
+V dnešnej dobe veľmi jednoduchá, postačuje mobilný telefón alebo akčná kamera.
+
+Hlavnou výhodou moderných mobilných zariadení [iPhone6] je možnosť takto 
 nasnímané video okamžite prehrať a zvoliť si spomalený výsek. 
 
 Príklad použitia iPhone 6 a štandardného SW pre snímanie spomaleného videa (Slo-mo video, 120/240 fps)
 a následného prehrania okamžite na telefóne jazdcovi.
 
-Príklad spomalenia  odrazovej fázy a dopadovej fázy na štandadnom iPhone videu:
+Príklad spomalenia  odrazovej fázy a dopadovej fázy na štandardnom iPhone videu:
 
-<img src="./resources/slow-mo/up.png" width="300px">
-<img src="./resources/slow-mo/down.png" width="300px">
+![spomalovanie videa na mobilnom zariadení, iPhone6 ](./resources/slow-mo/up-down.png)
+
 
 Takto jednoducho dokáže tréner jazdcovi na ukážke videa okamžite, 
 hneď po vykonaní trénovanej techniky ukázať správne a chybné časti 
 (v tomto prípade chybný dopad). Zároveň tak má jazdec má možnosť okamžitej 
 vizuálnej spätnej väzby a nápravy pri ďalšom pokuse už na tom istom tréningu.
+
+
+### Využitie: Stopky
+
+Ďalším možným využitím spomaleného videa je meranie času, bez použitia špeciálnej techniky.
+Príkladom môže byť meranie od pádu rampy po prechod predným kolesom cez meranú líniu.
+
+![využitie videa, stopky](./resources/slow-mo/stopwatch.jpg)
+
+Zaujímavé na tejto technike je, že ak meriame tú istú sekvenciu viacnásobne počas tréningu
+dokážeme vyhodnotiť vplyv techniky a reakcie na signál na výsledný čas v prvom úseku. 
+Teda meriame čas ale máme k nemu aj vysvetľujúce video. 
+Všetko už počas tréningu bez potreby dodatočného spracovania videa na počítači a techniky pre meranie času.
+
+Len pre zaujímavosť a porovnanie 0.43 sekúnd na štarte v podaní detí:
+
+![využitie videa, stopky, deti](./resources/slow-mo/stopwatch-kids.jpg)
+
+Presnosť takejto techniky je daná počtom snímkov za sekundu 
+(bežných 30 fps ~= 0.4 s, 240 fps ~= 0.004 s), presným uhlom pohľadu a presnosti odčítania.
+
+Toto samozrejme nenahrádza profesionálne meranie času, 
+ale minimálne náklady a jej jednoduchosť je určite zaujímavá najmä na meranie veľmi krátkych úsekov.
+
+### Využitie: Analýza štartu
+
+TODO: Poopravovat texty.
+
+Typickým podkladom v BMX, pre analýzu techniky je napríklad štart.
+Nahrávanie štartov v spomalenej podobe, je vhodným príkladom vysvetlenia techniky (viď DVD...)
+a podkladom pre analýzu profesionálnym cauchom, napr. <http://bmxtraining.com/shop/gate-start-analysis-with-coach-greg-romero/>.
 
 
 ### Využitie: Počítanie kadencie, počtu záberov medzi prekážkami
@@ -175,53 +233,26 @@ Na príklade je jasné, že jazdec stihol len necelé 3 otáčky a začína šli
 Iný jazdci v jeho kategórii robia medzi danými dvoma prekážkami 4-5 otáčok. 
 Treba popracovať na zvýšení kadencie a začať šliapať skôr.
 
-Na porovnanie 'treningová hra' teda rátanie a snaha o zvyšovanie šliapania medzi prekážkami, 
+Na porovnanie 'tréningová hra' teda rátanie a snaha o zvyšovanie šliapania medzi prekážkami, 
 je našťastie medzi deťmi obľúbená, 
 takže použitie videa na tento účel je skôr analytické ako motivačné, jazdec dokáže počítať otáčky aj sám. 
 Video môže maximálne pomôcť v identifikácii problému 
-(načasovanie, nízka kadencia, úplne nevhodné prevody, nedostatočná sila).
-
-
-
-### Využitie: Stopky
-
-Ďalším možným využitím spomaleného videa je meranie času, bez použitia špeciálnej techniky.
-Príkladom môže byť meranie od pádu rampy po prechod predným kolesom cez meranú líniu.
-
-![využitie videa, stopky](./resources/slow-mo/stopwatch.jpg)
-
-Zaujímavé na tejto technike je, že ak meriame tú istú sekvenciu viacnásobne počas tréningu
-dokážeme vyhodnotiť vplyv techniky a reakcie na signál na výsledný čas v prvom úseku. 
-Teda meriame čas ale máme k nemu aj vysvetľujúce video. 
-Všetko už počas tréningu bez potreby dodatočného spracovania videa na počítači a techniky pre meranie času.
-
-Len pre zaujímavosť a porovnanie 0.43 sekúnd na štarte v podaní detí:
-
-![využitie videa, stopky, deti](./resources/slow-mo/stopwatch-kids.jpg)
-
-
-Presnosť metódy samozrejme nenahrádza profesionálne meranie času, ale jej spojenie z video
-analýzov za minimalne náklady a zložitosť je určite zaujímavé.
-
-### Využitie: Analýza štartu
-
-TODO: Poopravovat texty.
-
-Typickým podkladom v BMX, pre analýzu techniky je napríklad štart.
-Nahrávanie štartov v spomalenej podobe, je vhodným príkladom vysvetlenia techniky (viď DVD...)
-a podkladom pre analýzu profesionálnym cauchom, napr. <http://bmxtraining.com/shop/gate-start-analysis-with-coach-greg-romero/>.
+(nesprávne načasovanie, nízka kadencia, úplne nevhodné prevody, nedostatočná sila).
 
 ### Využitie: Analýza kadencie počas časovky 
 
-Náhodný experiment z využitím kamery umiestnenej na zadnej konštrukcii bicykla, videozáznam z časovky 6 ročného jazdca na domácej trati.
+Náhodný experiment z využitím kamery umiestnenej na zadnej konštrukcii bicykla, 
+videozáznam z tréningovej časovky 6 ročného jazdca na domácej trati.
 
 Originál video <https://www.youtube.com/watch?v=TG5ntk4okdg>, natočené pôvodne bez metodického úmyslu.
 
+![Ukážka záberov z videa](./resources/action-sequence/cadence.jpg)
+
 Video z označením časových intervalov (ukážka) <https://www.coachseye.com/v/ukNs>.
 
+![Poloha pri počítaní rotácií](./resources/slow-mo/cadence-times.png)
+
 Následne z daného videa postupným manuálnym počítaním otáčok a označovaním intervalov, je pri znalosti trate možné zostaviť manuálne nasledovnú tabuľku (asi hodina práce).
-
-
 
 Pri znalosti profilu trate a napárovaní  na profil trate je možné 
 získať podstatne komplexnejšie údaje ako pri záberoch iba medzi dvoma prekážkami.
@@ -258,6 +289,7 @@ Priamo na trati:
 
 ### Výhody
 
+- voči cyklocomputer-u z počítaním kadencie, je možné veľmi presne korelovať na konkrétne miesto na trati
 - ľahká montáž a minimálne náklady v prípade, že vlastníte 'action kameru' (GoPro Hero, iSaw, iné)
 - Možnosť analýzy po tréningu, závodoch (ex-post) zo záznamu 
 
@@ -266,13 +298,16 @@ Priamo na trati:
 - nutnosť montáže/demontáže (10 min) na bicykel meranej osoby
 - stiahnutie videa a prenos do SW z možnosťou merania času (10 min)
 - vyhodnotenie (20-60 min podľa praxe a SW)
+- drahé voči cyklocomputer-u z počítaním kadencie
 
 ### Vylepšenie a možná automatizácia postupu
 
 - farebné značky na trati
-- korelácia údajov z cyclo-computerom merajúcim rýchlosť a prípadne GPS polohu
-- použitie CV (Computer Vision) na analýzu videa z identifikáciou kadencie a značiek na trati (v prípade farebných markerov a nálepiek na podrážkach obuvi projekt na cca 10 dní)
-- ....
+- korelácia údajov z cyklocomputer-om merajúcim rýchlosť a prípadne GPS polohu
+- použitie OpenCV (Computer Vision knižním a algortmov) na analýzu videa 
+s identifikáciou kadencie a značiek na trati (v prípade farebných markerov 
+a nálepiek na podrážkach obuvi projekt asi na týždeň práce)
+
 
 ## Anotovaný (komentovaný video záznam)
 
@@ -393,7 +428,7 @@ vhodný. Jazdci si môžu porovnať štýl jazdy, trajektórie, náklony, pedál
 Toto je najjednoduchší spôsob nevyžadujúci nijaké špeciálne SW and HW vybavenie, postačuje kamera 
 a prípadne prehrávač z možnosťou stop alebo spomaleného záznamu.
 
-TODO: static picture
+![video prejazd zatáčkou](./resources/slow-mo/turns.400.png)
 
 <https://www.youtube.com/watch?v=GLV-hCA7u64>
 
@@ -443,11 +478,13 @@ ich použiteľnosť v tréningu z cieľom:
 - porovnať prevedenie z dobrou technikou a vyznačiť rozdiely
 - ukázať vplyv rozdielnej zvolenej techniky na rýchlosť (jump, pump, vs. manual) toho istého úseku trate
 
-Prácu treba vnímať ako záznam doterajších skúseností na základe krátkej praxe autora,
-a prípadne inšpiráciu pre ostatných trénerov ktorý z danou oblasťou neprišli do styku.
-Výpočet techník a ich možností nie je ani do šírky ani do hĺbky určite kompletný.
+Prácu treba vnímať ako záznam doterajších skúseností na základe klubovej praxe, 
+a prípadne inšpiráciu pre ostatných trénerov, ktorí z danou oblasťou neprišli do styku.
 
-Predpokladáme však, že niektoré z prezentovaných video a foto techník zaujmú aj iných 
+Výpočet techník a ich možností nie je ani do šírky ani do hĺbky určite kompletný, a
+určite sa nedá porovnávať z profesionálnymi postupmi. 
+
+Je však možné, že niektoré z prezentovaných video a foto techník zaujmú aj iných 
 trénerov, rodičov a jazdcov a dokážu ich využiť napríklad na: 
 
 - aktívnejšie zapojenie rodičov počas tréningu ("máš telefón, ty filmuješ prvú zatáčku, a ty filmuješ skok na prekážke 7"),
@@ -477,43 +514,36 @@ na filmovanie, a dostatočne veľkým displejom na okamžité zobrazenie počas 
 - VLC player			- prehrávanie videa, Open Source, <http://www.videolan.org/vlc/index.html>
 - video-tools 			- manuálna extrakcia obrázkov z videa z možnosťou výberu vhodných záznamov, <https://github.com/ainthek/video-tools>
 - FFMpeg 				- automatická extrakcia obrázkov z videa, možnosť určenia začiatku, konca a frekvencie, <https://www.ffmpeg.org>
+- imagemagick 			- automatizované spracovanie obrázkov <http://www.imagemagick.org/>
 - OpenCV				- softvérové knižnice pre 'Computer Vision', rozpoznávanie tvarov, farieb atď, <http://opencv.org> 
-
 
 ## Literatúra a zdroje
 
 
 - [1] Lee McCormack, PRO BMX SKILLS - Equipment, techniques,tactics and training, <http://www.leelikesbikes.com/book-pro-bmx-skills>
 
-- Sean Chen, Ben Stabler, and Andrew Stanley, 
+- [2] Sean Chen, Ben Stabler, and Andrew Stanley, 
 EE 368: Digital Image Processing, Stanford University, 
 Automatic Generation of Action Sequence Images from Burst Shots, 
 <https://stacks.stanford.edu/file/druid:bk674bd5187/Chen_Stabler_Stanley_Action_Sequence_Generation.pdf>
 
-- GoPro Hero3 Burst Tutorial: How To Make A Sequence In Photoshop, 
+- [3] GoPro Hero3 Burst Tutorial: How To Make A Sequence In Photoshop, 
 <https://www.youtube.com/watch?v=IiZFDXBH86g>
 
-- Use Photoshop for a Seamless Action Sequence, 
+- [4] Use Photoshop for a Seamless Action Sequence, 
 <http://www.tipsquirrel.com/use-photoshop-for-a-seamless-action-sequence/>
 
-- How to Create a Radical Photo Sequence, 
+- [5] How to Create a Radical Photo Sequence, 
 <http://abduzeedo.com/how-create-radical-photo-sequence>
 
-- Reader Tutorial: How to create an awesome action picture in GIMP,
+- [6] Reader Tutorial: How to create an awesome action picture in GIMP,
 <http://abduzeedo.com/reader-tutorial-how-create-awesome-action-picture-gimp>
 
-- FFMpeg Documentation, 
+- [7] FFMpeg Documentation, 
 Create a thumbnail image every X seconds of the video,
 <https://trac.ffmpeg.org/wiki/Create%20a%20thumbnail%20image%20every%20X%20seconds%20of%20the%20video>
 
-
-<!-- Web Sites/Companies of Video Analyses and Coaching -->
-
-- <http://www.telestrator.com>
-- <http://www.hudl.com/sports>
-- <http://www.powerchalk.com>
-
-- <http://bmxtraining.com>
+- [8] www, Video Analyses and Coaching Web Sites, - <http://www.telestrator.com>, <http://www.hudl.com/sports>, <http://www.powerchalk.com>, <http://bmxtraining.com>
 
 
 EOF
