@@ -5,10 +5,10 @@ echo "
 - Telovýchovná jednota (oddiel, klub a pod.):	BMX Klub Rača
 - Miesto: Gymnáziu školských bratov na Čachtickej ul. v Rači 					
 - Dátum a čas: 14.1.2016 19:00-20:15
-- Počet trénujúcich (pohlavie):	13, 3 dievčatá, 10 chlapcov, od 5 do 15 rokov	
+- Počet trénujúcich (pohlavie):	13, 3 dievčatá, 10 chlapcov, od 5 do 14 rokov	
 - Tréner/ Inštruktor/ Cvičiteľ:	Mikuláš Rapčan, Martin Marko		
 - Pozorovateľ:	Martin Marko				
-- Hlavný cieľ tréningovej jednotky:	úvodný kondičný tréning počas zimnéhjo obdobia, v nových priestoroch
+- Hlavný cieľ tréningovej jednotky:	úvodný kondičný tréning počas zimného obdobia, v nových priestoroch
 
 ## Obsah:
  
