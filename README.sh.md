@@ -432,6 +432,13 @@ a prípadne prehrávač z možnosťou stop alebo spomaleného záznamu.
 
 <https://www.youtube.com/watch?v=GLV-hCA7u64>
 
+Iný príklad, "pumpovanie", rôznych jazdcov na tej istej prekážke>
+
+![video pumpovanie](./resources/slow-mo/pump-video.400.png)
+
+<https://www.youtube.com/watch?v=y4yluIPQ4XQ>
+
+
 ### Realizácia
 
 Podobne ako anotované video, je možné použiť SW v mobilných zariadeniach, prípadne
