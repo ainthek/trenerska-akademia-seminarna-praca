@@ -1,5 +1,29 @@
 cat << 'EOF'
 
+UNIVERZITA KOMENSKÉHO V BRATISLAVA
+FAKULTA TELESNEJ VÝCHOVY A ŠPORTU
+
+
+ZÁVEREČNÁ PRÁCA
+
+Ing. Martin Marko
+
+Využitie foto a video techniky v tréningu cyklistiky (BMX)
+
+
+
+Vzdelávací program pre získanie kvalifikácie trénera I. stupňa – cyklistika
+
+Školiteľ záverečnej práce
+PaedDr. Martin Belás, PhD.
+
+
+
+BRATISLAVA 2016
+
+-----------------------------------------
+
+
 Využitie foto a video techniky v tréningu cyklistiky (BMX)
 ==========================================================
 
