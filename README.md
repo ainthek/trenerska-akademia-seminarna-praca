@@ -1,4 +1,28 @@
 
+UNIVERZITA KOMENSKÉHO V BRATISLAVA
+FAKULTA TELESNEJ VÝCHOVY A ŠPORTU
+
+
+ZÁVEREČNÁ PRÁCA
+
+Ing. Martin Marko
+
+Využitie foto a video techniky v tréningu cyklistiky (BMX)
+
+
+
+Vzdelávací program pre získanie kvalifikácie trénera I. stupňa – cyklistika
+
+Školiteľ záverečnej práce
+PaedDr. Martin Belás, PhD.
+
+
+
+BRATISLAVA 2016
+
+-----------------------------------------
+
+
 Využitie foto a video techniky v tréningu cyklistiky (BMX)
 ==========================================================
 
@@ -208,12 +232,9 @@ ale minimálne náklady a jej jednoduchosť je určite zaujímavá najmä na mer
 
 ### Využitie: Analýza štartu
 
-TODO: Poopravovat texty.
-
 Typickým podkladom v BMX, pre analýzu techniky je napríklad štart.
-Nahrávanie štartov v spomalenej podobe, je vhodným príkladom vysvetlenia techniky (viď DVD...)
-a podkladom pre analýzu profesionálnym cauchom, napr. <http://bmxtraining.com/shop/gate-start-analysis-with-coach-greg-romero/>.
-
+Nahrávanie štartov v spomalenej podobe, je vhodným príkladom vysvetlenia techniky [9]
+a podkladom pre analýzu profesionálnym cauchom [10].
 
 ### Využitie: Počítanie kadencie, počtu záberov medzi prekážkami
 
@@ -268,9 +289,7 @@ Vybraný 6 ročný jazdec z 75 sekúnd na celej trati prešliape v pedáloch
 - pri štarte z rampy pomerne malé RPM (strach z prvej prekážky ?, problém statického štartu ?)
 - nulová aktivita z prvej prekážky (z iných porovnaní jazdci dosiahnu 5-6 rotácií)
 - maximálna frekvencia (prekvapivo 127 z prvej zátačky)
-- .....
-
-TODO: grafy
+- iné
 
 Bohužiaľ neexistuje porovnávacie video z iným jazdcom, ale
 len na základe tohto videa už je možné identifikovať rozsah a aj priebeh typického zaťaženia, a možné tréningové zaťaženie na 
@@ -284,7 +303,7 @@ Mimo trate:
 Priamo na trati:
 
 - zvýšenie počtu rotácií medzi prekážkami (pri zachovaní bezpečnej rýchlosti na zvládnutie ďalšej prekážky)
-- ...
+- iné
 
 ### Výhody
 
@@ -551,4 +570,9 @@ Create a thumbnail image every X seconds of the video,
 
 - [8] www, Video Analyses and Coaching Web Sites, - <http://www.telestrator.com>, <http://www.hudl.com/sports>, <http://www.powerchalk.com>, <http://bmxtraining.com>
 
+- [9] www, Trainingg DVDs, <http://bmxtraining.com/>, 
+
+- [10] Greg Romero,
+Gate Start Analyses with Coach Greg Romero, 
+http://bmxtraining.com/shop/gate-start-analysis-with-coach-greg-romero/, 
 
